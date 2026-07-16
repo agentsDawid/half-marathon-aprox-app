@@ -1,0 +1,11 @@
+﻿streamlit==1.43.2
+openai
+instructor
+pydantic
+python-dotenv
+langfuse==2.51.4
+boto3
+joblib
+pandas
+pycaret==3.3.2
+
