@@ -103,7 +103,12 @@ with col_chat:
             if predictedTime is None:
                 st.warning(f"Estymowany czas półmaratonu nieudany, popraw dane")
             else:
-                st.success(f"Super {userData.imie} twój estymowany czas to: {predictedTime}")
+                userName = userData.imie
+                if userName is None:
+                    userName = ""
+                else:
+                    userName = f'{userName} '
+                st.success(f"Super, {userName}twój estymowany czas to: {predictedTime}")
       
 with col_data:
     st.subheader("📋 Zebrane dane")

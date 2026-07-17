@@ -4,7 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4.1--Mini-green)
 ![Langfuse](https://img.shields.io/badge/Langfuse-Observability-orange)
-![Pycaret](https://img.shields.io/badge/pycaret-ML-F7931E)
+![Pycaret](https://img.shields.io/badge/Pycaret-ML-F7931E)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-App%20Platform-0080FF)
 
 AI-powered application that predicts and approximates half marathon finish times based on natural language input using a Machine Learning model and an LLM.
@@ -26,7 +26,7 @@ The application seamlessly combines:
 - **OpenAI GPT-4.1 Mini:** For parsing raw text and extracting structured user features (age, gender, reference times).
 - **Langfuse:** For full LLM call tracking, cost evaluation, and prompt observability.
 - **DigitalOcean Spaces:** As secure storage for pre-trained prediction models.
-- **Streamlit:** To provide a swift, responsive, and responsive user interface.
+- **Streamlit:** To provide a swift, intuitive, and responsive user interface.
 
 ## 🚀 Features
 
@@ -41,11 +41,10 @@ The application seamlessly combines:
 ## 🛠 Tech Stack
 
 - Python
-- Pandas / NumPy
-- Streamlit
-- Scikit-learn
+- Pandas
+- Pycaret
 - OpenAI API
-- Instructor / Pydantic
+- Pydantic
 - Langfuse
 - Boto3 (DigitalOcean Spaces integration)
 - DigitalOcean App Platform
@@ -59,7 +58,7 @@ The application seamlessly combines:
                   Streamlit Application
                             │
                             ▼
-           OpenAI GPT-4.1 Mini + Instructor
+                   OpenAI GPT-4.1 Mini
                             │
                             ▼
             Structured Runner Information 
@@ -79,17 +78,18 @@ half-marathon-aprox-app/
 │
 ├── app.py                  # Streamlit application core & UI
 ├── llm.py                  # LLM integration & prompt processing
-├── predictor.py            # Model loading & inference logic
-├── utils.py                # Mathematical approximations & helper functions
+├── do_client.py            # DigitalOcean Spaces client & model downloader
+├── features.py             # Feature engineering & mathematical approximations
 ├── langfuse_client.py      # Langfuse observability config
 ├── requirements.txt        # Project dependencies
+├── environment.yml         # Local Project dependencies
 │
 ├── data/
 │   ├── halfmarathon_wroclaw_2023_final.csv
 │   └── halfmarathon_wroclaw_2024_final.csv
 │
 ├── models/
-│   └── halfmarathon_linear_regression.pkl
+│   └── best_5km_model_2023_2024.pkl
 │
 └── README.md
 ```
@@ -99,29 +99,27 @@ half-marathon-aprox-app/
 1. **Input:** The runner enters a casual sentence describing their profile and recent results.
 2. **Extraction:** GPT analyzes the text and returns structured fields: `gender`, `age`, and `baseline_time`.
 3. **Validation:** The application checks if the baseline metrics are sufficient to make an accurate approximation.
-4. **Prediction:** The pre-trained scikit-learn regression model computes the predicted half marathon time.
+4. **Prediction:** The pre-trained PyCaret pipeline computes the predicted half marathon time.
 5. **Output:** The dynamic result (including expected kilometer splits) is beautifully presented on screen.
 6. **Telemetry:** Every LLM interaction logs prompts, response times, and token cost to Langfuse.
 
 ## 💬 Example
 
 ### Input
-> Mam 28 lat, jestem facetem i biegam 5 km w 22 minuty.
+> Hey. Jestem Nastka, dziewczyna, ur. 1995. Mój czas to 21:00.
 
 ### Output
 ```text
-Predicted half marathon time:
-01:43:58
+Super, Nastka twój estymowany czas to: 1:31:27
 ```
 
 ### Missing Information Handling
 Input:
-> Mam 28 lat i jestem mężczyzną.
+> Mam 34 lata i jestem mężczyzną.
 
 Output:
 ```text
-Missing information required for calculation:
-- 5 km time / reference distance time
+Potrzebuję jeszcze: czas na 5km (format MM:SS). Podaj proszę te informacje.
 ```
 
 ## 📊 LLM Monitoring
@@ -141,8 +139,8 @@ The underlying Machine Learning models are securely maintained inside **DigitalO
 
 ## 🔮 Future Improvements
 
-- Support for varying custom race distances (10k, Marathon).
-- Comparison view across multiple approximation formulas (Riegel vs. ML model).
+- Add the possibility to input data verbally (voice-to-text integration).
+- Support for alternative baseline distances (e.g., 10 km, 15 km, or Marathon) to predict half marathon times.
 - User historical runs and prediction tracking database.
 - REST API implementation for third-party integrations.
 
@@ -152,4 +150,4 @@ This project is available for educational and portfolio purposes.
 
 ## 👨‍💻 Author
 
-GitHub: **@agentsDawid**
+Dawid Lechowicz
