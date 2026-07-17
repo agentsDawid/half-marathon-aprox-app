@@ -4,18 +4,18 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4.1--Mini-green)
 ![Langfuse](https://img.shields.io/badge/Langfuse-Observability-orange)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E)
+![Pycaret](https://img.shields.io/badge/pycaret-ML-F7931E)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-App%20Platform-0080FF)
 
 AI-powered application that predicts and approximates half marathon finish times based on natural language input using a Machine Learning model and an LLM.
 
 ## 🌐 Live Demo
 
-**Application:** https://half-marathon-aprox-app-drxfd.ondigitalocean.app/
+**Application:** https://half-marathon-aprox-lvwcs.ondigitalocean.app/
 
 ## 📷 Preview
 
-![Half Marathon Predictor](screenshots/app.png)
+![Half Marathon Prediction](screenshots/app.png)
 
 ## 📌 Project Overview
 
