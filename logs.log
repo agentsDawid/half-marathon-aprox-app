@@ -4862,3 +4862,747 @@
 2026-07-15 21:18:22,624:INFO:Preloading libraries
 2026-07-15 21:18:22,624:INFO:Set up data.
 2026-07-15 21:18:22,625:INFO:Set up index.
+2026-07-16 23:54:45,971:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-16 23:54:45,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-16 23:54:45,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-16 23:54:45,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-16 23:58:00,234:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-16 23:58:00,235:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-16 23:58:00,235:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-16 23:58:00,235:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 00:02:30,022:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 00:02:30,023:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 00:02:30,023:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 00:02:30,023:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 00:02:36,166:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-07-17 00:02:36,239:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pycaret\internal\pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '26.1.2', 'setuptools': '83.0.0', 'pycaret': '3.3.2', 'IPython': '8.39.0', 'ipywidgets': '8.1.8', 'tqdm': '4.68.4', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '3.4.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.66.0', 'requests': '2.34.2', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '6.9.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.3.0', 'schemdraw': '0.15', 'statsmodels': '0.14.6', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.2.2', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.1.2', 'deprecation': '2.1.0', 'xxhash': '3.8.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.20', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '26.1.2', 'setuptools': '82.0.1', 'pycaret': '3.3.2', 'IPython': '9.14.1', 'ipywidgets': '8.1.8', 'tqdm': '4.68.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '3.6.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.65.1', 'requests': '2.34.2', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '6.8.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.3.0', 'schemdraw': '0.15', 'statsmodels': '0.14.6', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.2.2', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.1.2', 'deprecation': '2.1.0', 'xxhash': '3.7.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.15', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2026-07-17 00:03:19,472:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie='dawid'...ek=38, czas_5km='05:00'), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 00:03:19,979:INFO:Initializing predict_model()
+2026-07-17 00:03:19,980:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F04728F0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F432C4C0>)
+2026-07-17 00:03:19,980:INFO:Checking exceptions
+2026-07-17 00:03:19,980:INFO:Preloading libraries
+2026-07-17 00:03:19,980:INFO:Set up data.
+2026-07-17 00:03:19,985:INFO:Set up index.
+2026-07-17 00:03:20,254:INFO:Initializing predict_model()
+2026-07-17 00:03:20,255:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252DA10BAC0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252DA0ABEB0>)
+2026-07-17 00:03:20,255:INFO:Checking exceptions
+2026-07-17 00:03:20,255:INFO:Preloading libraries
+2026-07-17 00:03:20,255:INFO:Set up data.
+2026-07-17 00:03:20,259:INFO:Set up index.
+2026-07-17 00:03:32,057:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie='dawid'...ek=38, czas_5km='05:00'), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 00:03:32,824:INFO:Initializing predict_model()
+2026-07-17 00:03:32,824:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F42C9DB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F432CEE0>)
+2026-07-17 00:03:32,824:INFO:Checking exceptions
+2026-07-17 00:03:32,824:INFO:Preloading libraries
+2026-07-17 00:03:32,824:INFO:Set up data.
+2026-07-17 00:03:32,829:INFO:Set up index.
+2026-07-17 00:03:33,062:INFO:Initializing predict_model()
+2026-07-17 00:03:33,063:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F2867130>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F28EF9A0>)
+2026-07-17 00:03:33,063:INFO:Checking exceptions
+2026-07-17 00:03:33,063:INFO:Preloading libraries
+2026-07-17 00:03:33,063:INFO:Set up data.
+2026-07-17 00:03:33,067:INFO:Set up index.
+2026-07-17 00:03:37,776:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie='dawid'...ek=38, czas_5km='05:00'), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 00:03:38,453:INFO:Initializing predict_model()
+2026-07-17 00:03:38,453:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F42CA860>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F432D750>)
+2026-07-17 00:03:38,453:INFO:Checking exceptions
+2026-07-17 00:03:38,453:INFO:Preloading libraries
+2026-07-17 00:03:38,454:INFO:Set up data.
+2026-07-17 00:03:38,458:INFO:Set up index.
+2026-07-17 00:03:38,696:INFO:Initializing predict_model()
+2026-07-17 00:03:38,696:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F42C8730>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F416E170>)
+2026-07-17 00:03:38,697:INFO:Checking exceptions
+2026-07-17 00:03:38,697:INFO:Preloading libraries
+2026-07-17 00:03:38,697:INFO:Set up data.
+2026-07-17 00:03:38,702:INFO:Set up index.
+2026-07-17 00:03:47,822:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie='dawid'...ek=20, czas_5km='05:00'), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 00:03:48,741:INFO:Initializing predict_model()
+2026-07-17 00:03:48,743:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F42CADD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F432DC60>)
+2026-07-17 00:03:48,744:INFO:Checking exceptions
+2026-07-17 00:03:48,744:INFO:Preloading libraries
+2026-07-17 00:03:48,745:INFO:Set up data.
+2026-07-17 00:03:48,747:INFO:Set up index.
+2026-07-17 00:03:48,983:INFO:Initializing predict_model()
+2026-07-17 00:03:48,983:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F42C8160>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F28EF910>)
+2026-07-17 00:03:48,984:INFO:Checking exceptions
+2026-07-17 00:03:48,984:INFO:Preloading libraries
+2026-07-17 00:03:48,984:INFO:Set up data.
+2026-07-17 00:03:48,988:INFO:Set up index.
+2026-07-17 00:03:56,842:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie=None, p... wiek=26, czas_5km=None), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 00:03:57,239:INFO:Initializing predict_model()
+2026-07-17 00:03:57,239:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F427EE90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F432C670>)
+2026-07-17 00:03:57,239:INFO:Checking exceptions
+2026-07-17 00:03:57,239:INFO:Preloading libraries
+2026-07-17 00:03:57,240:INFO:Set up data.
+2026-07-17 00:03:57,243:INFO:Set up index.
+2026-07-17 00:03:57,536:INFO:Initializing predict_model()
+2026-07-17 00:03:57,536:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000252F427F700>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000252F28EFAC0>)
+2026-07-17 00:03:57,537:INFO:Checking exceptions
+2026-07-17 00:03:57,537:INFO:Preloading libraries
+2026-07-17 00:03:57,537:INFO:Set up data.
+2026-07-17 00:03:57,543:INFO:Set up index.
+2026-07-17 13:49:17,942:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 13:49:17,943:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 13:49:17,943:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 13:49:17,943:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-07-17 13:49:22,831:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-07-17 13:49:22,906:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pycaret\internal\pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '26.1.2', 'setuptools': '83.0.0', 'pycaret': '3.3.2', 'IPython': '8.39.0', 'ipywidgets': '8.1.8', 'tqdm': '4.68.4', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '3.4.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.66.0', 'requests': '2.34.2', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '6.9.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.3.0', 'schemdraw': '0.15', 'statsmodels': '0.14.6', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.2.2', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.1.2', 'deprecation': '2.1.0', 'xxhash': '3.8.1', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.20', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '26.1.2', 'setuptools': '82.0.1', 'pycaret': '3.3.2', 'IPython': '9.14.1', 'ipywidgets': '8.1.8', 'tqdm': '4.68.2', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '3.6.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.65.1', 'requests': '2.34.2', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '6.8.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.3.0', 'schemdraw': '0.15', 'statsmodels': '0.14.6', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.2.2', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.1.2', 'deprecation': '2.1.0', 'xxhash': '3.7.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.11.15', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2026-07-17 13:57:12,843:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie=None, p...iek=None, czas_5km=None), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:57:32,429:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie='Dawid'...ek=23, czas_5km='13:12'), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:57:37,469:INFO:Initializing predict_model()
+2026-07-17 13:57:37,469:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C46FD03580>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FD7FBE0>)
+2026-07-17 13:57:37,469:INFO:Checking exceptions
+2026-07-17 13:57:37,469:INFO:Preloading libraries
+2026-07-17 13:57:37,471:INFO:Set up data.
+2026-07-17 13:57:37,481:INFO:Set up index.
+2026-07-17 13:57:37,701:INFO:Initializing predict_model()
+2026-07-17 13:57:37,701:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C46FD02A10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FD7FBE0>)
+2026-07-17 13:57:37,702:INFO:Checking exceptions
+2026-07-17 13:57:37,702:INFO:Preloading libraries
+2026-07-17 13:57:37,702:INFO:Set up data.
+2026-07-17 13:57:37,704:INFO:Set up index.
+2026-07-17 13:57:43,033:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie='Dawid'...ek=23, czas_5km='13:12'), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:57:43,699:INFO:Initializing predict_model()
+2026-07-17 13:57:43,699:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C455B7B460>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FD7FA30>)
+2026-07-17 13:57:43,699:INFO:Checking exceptions
+2026-07-17 13:57:43,699:INFO:Preloading libraries
+2026-07-17 13:57:43,699:INFO:Set up data.
+2026-07-17 13:57:43,701:INFO:Set up index.
+2026-07-17 13:57:43,892:INFO:Initializing predict_model()
+2026-07-17 13:57:43,892:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C46FD01C90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C455B54040>)
+2026-07-17 13:57:43,892:INFO:Checking exceptions
+2026-07-17 13:57:43,893:INFO:Preloading libraries
+2026-07-17 13:57:43,893:INFO:Set up data.
+2026-07-17 13:57:43,895:INFO:Set up index.
+2026-07-17 13:58:21,963:INFO:Initializing predict_model()
+2026-07-17 13:58:21,963:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C470105CC0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FE39CF0>)
+2026-07-17 13:58:21,964:INFO:Checking exceptions
+2026-07-17 13:58:21,964:INFO:Preloading libraries
+2026-07-17 13:58:21,965:INFO:Set up data.
+2026-07-17 13:58:21,968:INFO:Set up index.
+2026-07-17 13:58:27,731:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie=None, p...iek=None, czas_5km=None), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:58:38,466:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie=None, p...=None, czas_5km='31:31'), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:58:50,990:INFO:Initializing predict_model()
+2026-07-17 13:58:50,992:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C47013D120>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FDBE170>)
+2026-07-17 13:58:50,992:INFO:Checking exceptions
+2026-07-17 13:58:50,992:INFO:Preloading libraries
+2026-07-17 13:58:50,992:INFO:Set up data.
+2026-07-17 13:58:50,994:INFO:Set up index.
+2026-07-17 13:58:51,170:INFO:Initializing predict_model()
+2026-07-17 13:58:51,170:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C4701054B0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FDBE3B0>)
+2026-07-17 13:58:51,171:INFO:Checking exceptions
+2026-07-17 13:58:51,171:INFO:Preloading libraries
+2026-07-17 13:58:51,173:INFO:Set up data.
+2026-07-17 13:58:51,174:INFO:Set up index.
+2026-07-17 13:59:00,560:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie=None, p...iek=None, czas_5km=None), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:59:01,154:INFO:Initializing predict_model()
+2026-07-17 13:59:01,154:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C47013D420>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FDBD7E0>)
+2026-07-17 13:59:01,155:INFO:Checking exceptions
+2026-07-17 13:59:01,155:INFO:Preloading libraries
+2026-07-17 13:59:01,155:INFO:Set up data.
+2026-07-17 13:59:01,158:INFO:Set up index.
+2026-07-17 13:59:01,370:INFO:Initializing predict_model()
+2026-07-17 13:59:01,370:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C455B7B760>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FE39900>)
+2026-07-17 13:59:01,371:INFO:Checking exceptions
+2026-07-17 13:59:01,371:INFO:Preloading libraries
+2026-07-17 13:59:01,371:INFO:Set up data.
+2026-07-17 13:59:01,375:INFO:Set up index.
+2026-07-17 13:59:12,765:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie=None, p...iek=None, czas_5km=None), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:59:12,922:INFO:Initializing predict_model()
+2026-07-17 13:59:12,922:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C47013E080>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FDBD7E0>)
+2026-07-17 13:59:12,922:INFO:Checking exceptions
+2026-07-17 13:59:12,922:INFO:Preloading libraries
+2026-07-17 13:59:12,923:INFO:Set up data.
+2026-07-17 13:59:12,925:INFO:Set up index.
+2026-07-17 13:59:13,132:INFO:Initializing predict_model()
+2026-07-17 13:59:13,132:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C47013C4F0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FDBD870>)
+2026-07-17 13:59:13,132:INFO:Checking exceptions
+2026-07-17 13:59:13,132:INFO:Preloading libraries
+2026-07-17 13:59:13,133:INFO:Set up data.
+2026-07-17 13:59:13,135:INFO:Set up index.
+2026-07-17 13:59:28,151:WARNING:C:\Users\u5612\.conda\envs\halfmarathon-env\lib\site-packages\pydantic\main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=RunInputData(imie='dad', ...iek=None, czas_5km=None), input_type=RunInputData])
+  return self.__pydantic_serializer__.to_python(
+
+2026-07-17 13:59:28,603:INFO:Initializing predict_model()
+2026-07-17 13:59:28,603:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C47013F0A0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FDBDD80>)
+2026-07-17 13:59:28,604:INFO:Checking exceptions
+2026-07-17 13:59:28,604:INFO:Preloading libraries
+2026-07-17 13:59:28,604:INFO:Set up data.
+2026-07-17 13:59:28,606:INFO:Set up index.
+2026-07-17 13:59:28,786:INFO:Initializing predict_model()
+2026-07-17 13:59:28,786:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C46FE37EB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Imiê', 'P³eæ',
+                                             'Kategoria wiekowa'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['P³eæ'],
+                                    transforme...
+                                    transformer=OneHotEncoder(cols=['Kategoria '
+                                                                    'wiekowa'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Imiê'],
+                                    transformer=TargetEncoder(cols=['Imiê'],
+                                                              handle_missing='return_nan'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C46FDBE5F0>)
+2026-07-17 13:59:28,786:INFO:Checking exceptions
+2026-07-17 13:59:28,786:INFO:Preloading libraries
+2026-07-17 13:59:28,787:INFO:Set up data.
+2026-07-17 13:59:28,790:INFO:Set up index.

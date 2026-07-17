@@ -1,0 +1,16 @@
+name: halfmarathon-env        # Nazwa Twojego środowiska w Condzie
+channels:                     # Źródła, z których Conda ma pobierać pakiety
+  - defaults
+  - conda-forge
+dependencies:                 # Główna lista zależności
+  - python=3.10
+  - pandas
+  - joblib
+  - pip:                      # Pakiety, które mają być doinstalowane przez pip
+    - streamlit==1.43.2
+    - pycaret==3.3.2
+    - openai
+    - instructor
+    - langfuse==2.51.4
+    - boto3
+    - dotenv
