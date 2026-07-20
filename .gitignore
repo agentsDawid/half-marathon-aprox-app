@@ -1,3 +1,5 @@
 .env
 __pycache__/
 logs.log
+*_V?_*
+_old_versions/
