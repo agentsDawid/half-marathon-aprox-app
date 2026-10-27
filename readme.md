@@ -143,7 +143,3 @@ The underlying Machine Learning models are securely maintained inside **DigitalO
 - Support for alternative baseline distances (e.g., 10 km, 15 km, or Marathon) to predict half marathon times.
 - User historical runs and prediction tracking database.
 - REST API implementation for third-party integrations.
-
-## 👨‍💻 Author
-
-Dawid Lechowicz
