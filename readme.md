@@ -144,10 +144,6 @@ The underlying Machine Learning models are securely maintained inside **DigitalO
 - User historical runs and prediction tracking database.
 - REST API implementation for third-party integrations.
 
-## 📄 License
-
-This project is available for educational and portfolio purposes.
-
 ## 👨‍💻 Author
 
 Dawid Lechowicz
