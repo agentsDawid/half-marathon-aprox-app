@@ -11,28 +11,33 @@ Pipeline:
 
 import streamlit as st
 import pandas as pd
-import os
+from pathlib import Path
 import datetime
 
 from pycaret.regression import load_model, predict_model
 from llm import extract_data, check_missing_data, missing_status, RunInputData
 from features import fill_year_category, unify_age, convert_time_to_seconds, convert_seconds_to_time, merge_data
-from do_client import load_model
+# from do_client import load_model
 
 ### -------- Constants
 MODEL_NAME = "best_5km_model_2023_2024" #.pkl"
-MODEL_FOLDER = "Models"
+MODEL_FOLDER = Path(__file__).resolve().parent / "Models"
 MISSING_DATA = "Brak informacji"
 MESSAGES_LIMIT = 8
 LLM_MESSAGES_LIMIT = 1
 ### -------------------------------------------- ###
 
-@st.cache_data
+@st.cache_resource(show_spinner="Ładowanie modelu predykcyjnego...")
 def get_local_model():
-    model_path = os.path.join(MODEL_FOLDER, MODEL_NAME) # f"{MODEL_NAME}.pkl")
-    return load_model(model_path)
+    model_path = MODEL_FOLDER / f"{MODEL_NAME}.pkl"
+    if not model_path.is_file():
+        raise FileNotFoundError(
+            f"Nie znaleziono modelu: {model_path}. "
+            "Sprawdź, czy folder Models jest w repozytorium aplikacji."
+        )
+    return load_model(str(model_path.with_suffix("")))
 
-model = load_model(MODEL_NAME) # get_local_model()
+model = get_local_model()
 
     # ['Imię', 'Płeć', 'Kategoria wiekowa', 'Rocznik', '5 km Czas',
 #        '5 km Miejsce Open', '5 km Tempo', 'Czas', 'rok zawodów']
